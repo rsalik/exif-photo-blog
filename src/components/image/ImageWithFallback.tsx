@@ -100,6 +100,7 @@ export default function ImageWithFallback(props: ImageProps & {
         ...rest,
         ref: imgRef,
         priority,
+        quality: 100,
         className: imgClassName,
         onLoad,
         onError,
